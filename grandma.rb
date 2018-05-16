@@ -2,7 +2,7 @@
 def speak_to_grandma(speak)
 # Whatever you say to grandma, she should respond with
 # HUH?! SPEAK UP, SONNY!
-if speak == speak.toUpper
+if speak == speak.upcase
 # unless you shout it (type in all capitals).
 
 # If you shout, she can hear you (or at least she thinks so) 
